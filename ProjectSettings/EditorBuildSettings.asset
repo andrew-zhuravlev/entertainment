@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/vlad/main.unity
+    guid: 45f1ad7f1b4e47348bf9a72dda831302
+  - enabled: 0
     path: Assets/MapboxAR/Examples/Scenes/WorldScaleAR.unity
     guid: c60dfd6bb74264e44b3dbf93e9d129c4
   m_configObjects: {}
