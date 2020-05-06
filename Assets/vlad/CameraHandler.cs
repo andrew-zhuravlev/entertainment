@@ -4,7 +4,7 @@ using System.Collections;
 
 public class CameraHandler : MonoBehaviour {
 
-    private static readonly float PanSpeed = 20f;
+    private static readonly float PanSpeed = 100f;
     private static readonly float ZoomSpeedTouch = 0.1f;
     private static readonly float ZoomSpeedMouse = 0.5f;
     
