@@ -21,7 +21,7 @@ public class Raycaster : MonoBehaviour {
             if (Physics.Raycast(_ray, out _hit, Mathf.Infinity, layerMask)) {
                 MyPoi myPoi = _hit.transform.parent.GetComponent<MyPoi>();
                 if (myPoi != null) {
-                    popUp.Open(myPoi.myInfo.sprite);
+                    popUp.Open(myPoi.myInfo.sprite, myPoi.myInfo.name, myPoi.myInfo.type);
                 }
             }
         }
