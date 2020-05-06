@@ -4,14 +4,17 @@ using UnityEngine.UI;
 
 public class MyPopUp : MonoBehaviour {
     public Image image;
+    public Image maki;
+    
     public Text nameText;
     public Text typeText;
     public LeanWindow window;
 
-    public void Open(Sprite sprite, string name, string type) {
-        image.sprite = sprite;
-        nameText.text = name;
-        typeText.text = type;
+    public void Open(MyPoi.PoiInfo poiInfo) {
+        image.sprite = poiInfo.poiSprite;
+        nameText.text = poiInfo.name;
+        typeText.text = poiInfo.type;
+        maki.sprite = poiInfo.makiSprite;
 
         window.TurnOn();
     }
