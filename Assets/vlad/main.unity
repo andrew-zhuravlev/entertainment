@@ -1975,7 +1975,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4773110821741150, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.5735764
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4773110821741150, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 3}
       propertyPath: m_LocalRotation.y
@@ -1987,11 +1987,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4773110821741150, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8191521
+      value: 0.8660254
       objectReference: {fileID: 0}
     - target: {fileID: 4773110821741150, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 70
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 20207340915113334, guid: 35e76f6e52f5c4252a0b703cc2019a37,
         type: 3}
@@ -2136,7 +2136,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -655.2001
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114348550760251274, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 3}
 --- !u!1 &1092259073
 GameObject:
@@ -2874,6 +2875,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1402762810}
   m_CullTransparentMesh: 0
+--- !u!1 &1405403557 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1006237342195936, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+    type: 3}
+  m_PrefabInstance: {fileID: 1002213147}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1405403559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405403557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64a0fd2c7a425c9488dd7dadf5607031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1433832068
 GameObject:
   m_ObjectHideFlags: 0
