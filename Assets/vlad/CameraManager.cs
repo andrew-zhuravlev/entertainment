@@ -16,7 +16,11 @@ namespace vlad {
                 return _i;
             }
         }
-        
+
+        public Camera MapCamera {
+            get { return _mapCamera; }
+        }
+
         public Camera GetCurrentCamera() {
             if (_mapCamera.enabled) {
                 return _mapCamera;
